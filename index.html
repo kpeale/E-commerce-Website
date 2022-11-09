@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Product Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="navigation__container">
+            <button class="nav-toggle" aria-label="open navigation">
+                <span class="hamburger"></span>
+            </button>
+            <a href="#" class="logo">
+                <img src="images/logo.svg" alt="logo" class="logobx">
+            </a>
+            <nav class="nav">
+                <ul class="nav__list nav__list--primary">
+                    <li class="nav__item nav__item--hover"><a href="#" class="nav__links"></a>Collections</li>
+                    <li class="nav__item nav__item--hover"><a href="#" class="nav__links"></a>Men</li>
+                    <li class="nav__item nav__item--hover"><a href="#" class="nav__links"></a>Women</li>
+                    <li class="nav__item nav__item--hover"><a href="#" class="nav__links"></a>About</li>
+                    <li class="nav__item nav__item--hover"><a href="#" class="nav__links"></a>Contact</li>
+                </ul>
+
+                <ul class="nav__list nav__list--secondary">
+
+                    <div class="nav-dropdown ">
+                        <a href="#" class="nav__item"><img src="images/icon-cart.svg" alt="shopping cart" class="nav__icon1"></a>
+                       <div class="dropdown-content" id="mydropdown">
+                              <p class="dropdown__content-heading">cart</p>
+                              <div class="empty-cart">
+                                  <p>Your cart is empty</p>
+                             </div>
+                              <div class="filled-cart">
+                                  <img src="images/image-product-1-thumbnail.jpg" alt="image image-product-1-thumbnail" class="dropdown-img">
+                                  <p class="dropdown-paragraph"></p>
+                                  <img src="images/icon-delete.svg" alt="delete icon" class="dropdown-img-del">
+                                  <a href="#" class="dropdown-btn">Check out</a>
+                             </div>
+                        </div>
+                  </div>
+
+                  <a href="#" class="nav__item"><img src="images/image-avatar.png" alt="image-avatar" class="nav__icon2"></a>
+                  
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section__carousel">
+        <div class="section__carousel-item1" >
+            <div id="imgs" class="section__carousel-item1-imgcontainer">
+                <img src="images/image-product-1.jpg" alt="product1" class="section__carousel--img1">
+                <img src="images/image-product-2.jpg" alt="product 2" class="section__carousel--img1">
+                <img src="images/image-product-3.jpg" alt="product 3" class="section__carousel--img1">
+                <img src="images/image-product-4.jpg" alt="product4" class="section__carousel--img1">
+            </div>
+            <div class="section__carousel-item1-arrowcontainer">
+                <div class="section__carousel-item1-arrowcontainer1">
+                    <img src="images/icon-next.svg" alt="next arrow" class="section__carousel-item1-arrow--next">
+               </div>
+                <div class="section__carousel-item1-arrowcontainer2">
+                    <img src="images/icon-previous.svg" alt="previous arrow" class="section__carousel-item1-arrow--previous">
+               </div>
+           </div>
+      </div>
+
+      <div class="section__carousel-grid1">
+            <div class="section__carousel-item2">
+                    <div class="section__carousel-item2-headingbx">
+                        <h1 class="section__carousel-item2-heading--1">sneaker company</h1>
+                        <h2 class="section__carousel-item2-heading--2">Fall Limited Edition Sneakers</h2>
+                </div>
+                    <div class="section__carousel-item2-parabx">
+                        <p class="section__carousel-item2-paragraph">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+                </div>
+            </div>
+
+            <div class="section__carousel-item3">
+                    <p class="section__carousel-item3--p1">$125.00</p>
+                    <p class="section__carousel-item3--p2">50%</p>
+                    <p class="section__carousel-item3--p3 ">$250.00</p>
+            </div>
+            
+            <div class="section__carousel-item34">
+                    <div class="section__carousel-item4">
+                        <img src="images/icon-minus.svg" alt="icon-minus" class="section__carousel-item4--img">
+                        <p class="section__carousel-item--zero"></p>
+                        <img src="images/icon-plus.svg" alt="icon-plus" class="section__carousel-item4--img2">
+                    </div>
+
+                    <div class="section__carousel--btn">
+                        <img src="images/icon-cart.svg" alt="cart" class="section__carousel--btn-img">
+                        <a href="#" class="section__carousel-link">Add to cart</a>
+                        <div class="section__carousel--btn-overlayFade"></div>
+                </div>
+            </div>
+      </div>
+
+       <div class="section__carousel-item5">
+        <img src="images/image-product-1-thumbnail.jpg" alt="image-product-1-thumbnail" class="section__carousel-item5--img">
+        <img src="images/image-product-2-thumbnail.jpg" alt="image-product-2-thumbnail" class="section__carousel-item5--img">
+        <img src="images/image-product-3-thumbnail.jpg" alt="image-product-3-thumbnail" class="section__carousel-item5--img">
+        <img src="images/image-product-4-thumbnail.jpg" alt="image-product-4-thumbnail" class="section__carousel-item5--img">
+        <div class="section__carousel-item5--overlayFade"></div>
+       </div>
+  </section>
+    
+
+  <script src="script.js"></script>
+</body>
+</html>
